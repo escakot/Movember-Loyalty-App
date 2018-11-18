@@ -1,0 +1,218 @@
+{
+    "Participants": {
+        "Member": [
+            {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "001",
+                "firstName": "Constant",
+                "lastName": "Mori",
+                "points": 6
+            },
+            {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "002",
+                "firstName": "Ian",
+                "lastName": "Duke",
+                "points": 8
+            },
+            {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "003",
+                "firstName": "Vin",
+                "lastName": "Kumarathasan",
+                "points": 5
+            },
+            {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "004",
+                "firstName": "Errol",
+                "lastName": "Cheong",
+                "points": 53
+            }
+        ],
+        "Partner": [ 
+            {
+                "$class": "org.clp.biznet.Partner",
+                "id": "003",
+                "company": "Jimmy's Coffee",
+                "postal": "M5G 2S9",
+                "hashtag": ""
+            },
+            {
+                 "$class": "org.clp.biznet.Partner",
+                 "id": "004",
+                 "company": "Skip the Dishes",
+                 "postal": "L8R 2V5",
+                 "hashtag": ""
+            },
+            {
+                "$class": "org.clp.biznet.Partner",
+                "id": "005",
+                "company": "Twitter",
+                "postal": "S8R 2V5",
+                "hashtag": "#fathersdaymo"
+            },
+            {
+                "$class": "org.clp.biznet.Partner",
+                "id": "005",
+                "company": "Lyft",
+                "postal": "M8V 2R5",
+                "hashtag": ""
+            },
+        ]
+    },
+    "Assets": {
+        "availableRewards": [
+            {
+                "rewardsPartner": "Jimmy's Coffee",
+                "rewardId": 001,
+                "promoPescription": "Enjoy 100% off your next coffee",
+                "discount": 100,
+                "promoCode": "jimmysmo2018",
+                "imageAssetPath": "./img/jimmys.png"
+            },
+            {
+                "rewardsPartner": "Lyft",
+                "rewardId": 002,
+                "promoPescription": "Enjoy 20% off your next Lyft ride",
+                "discount": 20,
+                "promoCode": "movember2018",
+                "imageAssetPath": "./img/lyft.png"
+            },
+            {
+                 "rewardsPartner": "Skip the Dishes",
+                 "rewardId": 003,
+                 "promoPescription": "Enjoy 50% off your next meal from Skip the Dishes",
+                 "discount": 50,
+                 "promoCode": "skipthedishes2018",
+                 "imageAssetPath": "./img/skip.jpeg"
+            }
+        ]
+    },
+    "Transaction": [
+        {
+            "$class": "org.hyperledger.composer.system.AddParticipant",
+            "resources": [ {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "001",
+                "firstName": "Constant",
+                "lastName": "Mori",
+                "points": 2
+            } ],
+            "targetRegistry": "resource:org.hyperledger.composer.system.ParticipantRegistry#org.clp.biznet.Member",
+            "transactionId": "57655087-29da-4713-a6ba-b5b912687afc",
+            "timestamp": "2018-11-18T00:09:41.688Z"
+        }, 
+        {
+            "$class": "org.hyperledger.composer.system.AddParticipant",
+            "resources": [ {
+                "$class": "org.clp.biznet.Partner",
+                "id": "04",
+                "company": "Skip the Dishes",
+                "postal": "L8R 2V5",
+                "hashtag": ""
+            } ],
+            "targetRegistry": "resource:org.hyperledger.composer.system.ParticipantRegistry#org.clp.biznet.Partner",
+            "transactionId": "811f1fa4-dda1-45d3-b19e-7b4b1f611baf",
+            "timestamp": "2018-11-18T00:27:35.505Z"
+        },
+        {
+            "$class": "org.hyperledger.composer.system.AddParticipant",
+            "resources": [ {
+                "$class": "org.clp.biznet.Partner",
+                "id": "005",
+                "company": "Twitter",
+                "postal": "S8R 2V5",
+                "hashtag": "#fathersdaymo"
+            } ],
+            "targetRegistry": "resource:org.hyperledger.composer.system.ParticipantRegistry#org.clp.biznet.Partner",
+            "transactionId": "0b4607e3-c7c1-404b-bb43-dd38616fabfc",
+            "timestamp": "2018-11-18T00:28:28.617Z"
+        },
+        {
+            "$class": "org.hyperledger.composer.system.UpdateParticipant",
+            "resources": [ {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "001",
+                "firstName": "Constant",
+                "lastName": "Mori",
+                "points": 1
+            } ],
+            "targetRegistry": "resource:org.hyperledger.composer.system.ParticipantRegistry#org.clp.biznet.Member",
+            "transactionId": "384a108f-2f3e-4758-a58c-cc42f4f487e9",
+            "timestamp": "2018-11-18T00:30:51.545Z"
+        },
+        {
+            "$class": "org.hyperledger.composer.system.UpdateParticipant",
+            "resources": [ {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "002",
+                "firstName": "Ian",
+                "lastName": "Duke",
+                "points": 10
+            } ],
+            "targetRegistry": "resource:org.hyperledger.composer.system.ParticipantRegistry#org.clp.biznet.Member",
+            "transactionId": "f78cd2af-f14d-4a82-ba92-a20ddfa22202",
+            "timestamp": "2018-11-18T00:31:12.003Z"
+        },
+        {
+            "$class": "org.clp.biznet.EarnPoints",
+            "points": 1,
+            "partner": "resource:org.clp.biznet.Partner#003",
+            "member": "resource:org.clp.biznet.Member#001",
+            "transactionId": "eefe216b-3ef0-4a95-9373-01f7262acdd4",
+            "timestamp": "2018-11-18T00:32:04.695Z"
+        },
+        {
+            "$class": "org.clp.biznet.UsePoints",
+            "points": 2,
+            "partner": "resource:org.clp.biznet.Partner#004",
+            "member": "resource:org.clp.biznet.Member#002",
+            "transactionId": "522ec94b-6a38-4639-932e-1ec69e54b236",
+            "timestamp": "2018-11-18T00:32:33.055Z"
+        },
+        {
+            "$class": "org.hyperledger.composer.system.AddParticipant",
+            "resources": [ {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "003",
+                "firstName": "Vin",
+                "lastName": "Kumarathasan",
+                "points": 5
+            } ],
+            "targetRegistry": "resource:org.hyperledger.composer.system.ParticipantRegistry#org.clp.biznet.Member",
+            "transactionId": "632760a6-d2ee-4fc9-92ef-310d3809d5d7",
+            "timestamp": "2018-11-18T00:34:34.163Z"
+        },
+        {
+            "$class": "org.hyperledger.composer.system.AddParticipant",
+            "resources": [ {
+                "$class": "org.clp.biznet.Member",
+                "accountNumber": "004",
+                "firstName": "Errol",
+                "lastName": "Cheong",
+                "points": 50
+            } ],
+            "targetRegistry": "resource:org.hyperledger.composer.system.ParticipantRegistry#org.clp.biznet.Member",
+            "transactionId": "a784d1d3-32c6-4d63-b3c4-8ade8e09741f",
+            "timestamp": "2018-11-18T00:35:02.550Z"
+        },
+        {
+            "$class": "org.clp.biznet.EarnPoints",
+            "points": 3,
+            "partner": "resource:org.clp.biznet.Partner#005",
+            "member": "resource:org.clp.biznet.Member#004",
+            "transactionId": "91a3fc44-bc82-4115-ac7f-00fd68cf39d3",
+            "timestamp": "2018-11-18T00:35:45.221Z"
+        },
+        {
+            "$class": "org.clp.biznet.UsePoints",
+            "points": 1,
+            "partner": "resource:org.clp.biznet.Partner#004",
+            "member": "resource:org.clp.biznet.Member#003",
+            "transactionId": "baadce57-c72f-4b6c-8cbf-aa2d2c18b24d",
+            "timestamp": "2018-11-18T00:36:20.489Z"
+        }
+    ]
+
+}

@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBD50390EC7D831994CEDDAA /* Pods_Movember_Loyalty_Program.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCB3A645D1180464AA03B66 /* Pods_Movember_Loyalty_Program.framework */; };
-		D1854A9A21A10CC400FE1FBD /* ContentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854A9921A10CC400FE1FBD /* ContentPageViewController.swift */; };
+		D1854A9A21A10CC400FE1FBD /* MoCoinPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854A9921A10CC400FE1FBD /* MoCoinPageViewController.swift */; };
+		D1854A9D21A13C2800FE1FBD /* BetterSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854A9B21A13C2800FE1FBD /* BetterSegmentedControl.swift */; };
+		D1854A9E21A13C2800FE1FBD /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854A9C21A13C2800FE1FBD /* Options.swift */; };
+		D1854AA021A140E200FE1FBD /* RedeemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854A9F21A140E200FE1FBD /* RedeemTableViewController.swift */; };
+		D1854AA221A140F100FE1FBD /* RedeemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854AA121A140F100FE1FBD /* RedeemTableViewCell.swift */; };
+		D1854AAB21A1C09600FE1FBD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D1854AA721A1C09600FE1FBD /* data.json */; };
+		D1854AAF21A1C0FB00FE1FBD /* PartnerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854AAE21A1C0FB00FE1FBD /* PartnerData.swift */; };
+		D1854AB121A1C50C00FE1FBD /* RedemptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854AB021A1C50C00FE1FBD /* RedemptionViewController.swift */; };
+		D1854AB321A1C90600FE1FBD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1854AB221A1C90600FE1FBD /* Extension.swift */; };
 		D1E10B7521A0BE66001CEFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B7421A0BE66001CEFFB /* AppDelegate.swift */; };
 		D1E10B7721A0BE66001CEFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B7621A0BE66001CEFFB /* ViewController.swift */; };
 		D1E10B7A21A0BE66001CEFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E10B7821A0BE66001CEFFB /* Main.storyboard */; };
 		D1E10B7C21A0BE68001CEFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E10B7B21A0BE68001CEFFB /* Assets.xcassets */; };
 		D1E10B7F21A0BE68001CEFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E10B7D21A0BE68001CEFFB /* LaunchScreen.storyboard */; };
-		D1E10B8721A0C12B001CEFFB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B8621A0C12B001CEFFB /* TableViewController.swift */; };
+		D1E10B8721A0C12B001CEFFB /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B8621A0C12B001CEFFB /* HistoryTableViewController.swift */; };
 		D1E10B8921A0C5BE001CEFFB /* LoyaltyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B8821A0C5BE001CEFFB /* LoyaltyData.swift */; };
 		D1E10B8B21A0C651001CEFFB /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B8A21A0C651001CEFFB /* JsonData.swift */; };
-		D1E10B8D21A0CBDD001CEFFB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B8C21A0CBDD001CEFFB /* TableViewCell.swift */; };
-		D1E10B9621A108F1001CEFFB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B9521A108F1001CEFFB /* PageViewController.swift */; };
+		D1E10B8D21A0CBDD001CEFFB /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B8C21A0CBDD001CEFFB /* HistoryTableViewCell.swift */; };
+		D1E10B9621A108F1001CEFFB /* MoCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E10B9521A108F1001CEFFB /* MoCoinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A9FCDDC88C66F4E5F75903B /* Pods-Movember-Loyalty-Program.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movember-Loyalty-Program.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movember-Loyalty-Program/Pods-Movember-Loyalty-Program.debug.xcconfig"; sourceTree = "<group>"; };
-		71A5A8873B887E5C473639E7 /* Pods-Movember-Loyalty-Program.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movember-Loyalty-Program.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movember-Loyalty-Program/Pods-Movember-Loyalty-Program.release.xcconfig"; sourceTree = "<group>"; };
-		7DCB3A645D1180464AA03B66 /* Pods_Movember_Loyalty_Program.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movember_Loyalty_Program.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1854A9921A10CC400FE1FBD /* ContentPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPageViewController.swift; sourceTree = "<group>"; };
+		D1854A9921A10CC400FE1FBD /* MoCoinPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoCoinPageViewController.swift; sourceTree = "<group>"; };
+		D1854A9B21A13C2800FE1FBD /* BetterSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetterSegmentedControl.swift; sourceTree = "<group>"; };
+		D1854A9C21A13C2800FE1FBD /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		D1854A9F21A140E200FE1FBD /* RedeemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemTableViewController.swift; sourceTree = "<group>"; };
+		D1854AA121A140F100FE1FBD /* RedeemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemTableViewCell.swift; sourceTree = "<group>"; };
+		D1854AA721A1C09600FE1FBD /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		D1854AAE21A1C0FB00FE1FBD /* PartnerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerData.swift; sourceTree = "<group>"; };
+		D1854AB021A1C50C00FE1FBD /* RedemptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemptionViewController.swift; sourceTree = "<group>"; };
+		D1854AB221A1C90600FE1FBD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		D1E10B7121A0BE66001CEFFB /* Movember-Loyalty-Program.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movember-Loyalty-Program.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E10B7421A0BE66001CEFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E10B7621A0BE66001CEFFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,11 +45,11 @@
 		D1E10B7B21A0BE68001CEFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1E10B7E21A0BE68001CEFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1E10B8021A0BE68001CEFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1E10B8621A0C12B001CEFFB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D1E10B8621A0C12B001CEFFB /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		D1E10B8821A0C5BE001CEFFB /* LoyaltyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyData.swift; sourceTree = "<group>"; };
 		D1E10B8A21A0C651001CEFFB /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
-		D1E10B8C21A0CBDD001CEFFB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		D1E10B9521A108F1001CEFFB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		D1E10B8C21A0CBDD001CEFFB /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		D1E10B9521A108F1001CEFFB /* MoCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoCoinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,20 +57,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD50390EC7D831994CEDDAA /* Pods_Movember_Loyalty_Program.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90635E458B2F56FA85F9F8EA /* Pods */ = {
+		D1854AA321A1BFFA00FE1FBD /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1A9FCDDC88C66F4E5F75903B /* Pods-Movember-Loyalty-Program.debug.xcconfig */,
-				71A5A8873B887E5C473639E7 /* Pods-Movember-Loyalty-Program.release.xcconfig */,
+				D1E10B7621A0BE66001CEFFB /* ViewController.swift */,
+				D1E10B9521A108F1001CEFFB /* MoCoinViewController.swift */,
+				D1854A9921A10CC400FE1FBD /* MoCoinPageViewController.swift */,
+				D1E10B8621A0C12B001CEFFB /* HistoryTableViewController.swift */,
+				D1E10B8C21A0CBDD001CEFFB /* HistoryTableViewCell.swift */,
+				D1854A9F21A140E200FE1FBD /* RedeemTableViewController.swift */,
+				D1854AA121A140F100FE1FBD /* RedeemTableViewCell.swift */,
+				D1854AB021A1C50C00FE1FBD /* RedemptionViewController.swift */,
+				D1854AB221A1C90600FE1FBD /* Extension.swift */,
 			);
-			name = Pods;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D1854AA421A1C00600FE1FBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1E10B8A21A0C651001CEFFB /* JsonData.swift */,
+				D1E10B8821A0C5BE001CEFFB /* LoyaltyData.swift */,
+				D1854AAE21A1C0FB00FE1FBD /* PartnerData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D1E10B6821A0BE66001CEFFB = {
@@ -66,8 +94,6 @@
 			children = (
 				D1E10B7321A0BE66001CEFFB /* Movember-Loyalty-Program */,
 				D1E10B7221A0BE66001CEFFB /* Products */,
-				D1E10B9321A107CA001CEFFB /* Frameworks */,
-				90635E458B2F56FA85F9F8EA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,27 +109,17 @@
 			isa = PBXGroup;
 			children = (
 				D1E10B7421A0BE66001CEFFB /* AppDelegate.swift */,
-				D1E10B7621A0BE66001CEFFB /* ViewController.swift */,
-				D1E10B8621A0C12B001CEFFB /* TableViewController.swift */,
-				D1E10B8C21A0CBDD001CEFFB /* TableViewCell.swift */,
-				D1E10B9521A108F1001CEFFB /* PageViewController.swift */,
-				D1854A9921A10CC400FE1FBD /* ContentPageViewController.swift */,
-				D1E10B8A21A0C651001CEFFB /* JsonData.swift */,
-				D1E10B8821A0C5BE001CEFFB /* LoyaltyData.swift */,
+				D1854AA321A1BFFA00FE1FBD /* ViewControllers */,
+				D1854AA421A1C00600FE1FBD /* Model */,
+				D1854A9B21A13C2800FE1FBD /* BetterSegmentedControl.swift */,
+				D1854A9C21A13C2800FE1FBD /* Options.swift */,
 				D1E10B7821A0BE66001CEFFB /* Main.storyboard */,
+				D1854AA721A1C09600FE1FBD /* data.json */,
 				D1E10B7B21A0BE68001CEFFB /* Assets.xcassets */,
 				D1E10B7D21A0BE68001CEFFB /* LaunchScreen.storyboard */,
 				D1E10B8021A0BE68001CEFFB /* Info.plist */,
 			);
 			path = "Movember-Loyalty-Program";
-			sourceTree = "<group>";
-		};
-		D1E10B9321A107CA001CEFFB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DCB3A645D1180464AA03B66 /* Pods_Movember_Loyalty_Program.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,11 +129,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E10B8321A0BE68001CEFFB /* Build configuration list for PBXNativeTarget "Movember-Loyalty-Program" */;
 			buildPhases = (
-				F43ED91EE3BBC83EA7925EB9 /* [CP] Check Pods Manifest.lock */,
 				D1E10B6D21A0BE66001CEFFB /* Sources */,
 				D1E10B6E21A0BE66001CEFFB /* Frameworks */,
 				D1E10B6F21A0BE66001CEFFB /* Resources */,
-				E756175A6D54402E67D3D5FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E10B7F21A0BE68001CEFFB /* LaunchScreen.storyboard in Resources */,
+				D1854AAB21A1C09600FE1FBD /* data.json in Resources */,
 				D1E10B7C21A0BE68001CEFFB /* Assets.xcassets in Resources */,
 				D1E10B7A21A0BE66001CEFFB /* Main.storyboard in Resources */,
 			);
@@ -174,57 +189,25 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		E756175A6D54402E67D3D5FD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Movember-Loyalty-Program/Pods-Movember-Loyalty-Program-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movember-Loyalty-Program/Pods-Movember-Loyalty-Program-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F43ED91EE3BBC83EA7925EB9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Movember-Loyalty-Program-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		D1E10B6D21A0BE66001CEFFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1854AB321A1C90600FE1FBD /* Extension.swift in Sources */,
+				D1854AA021A140E200FE1FBD /* RedeemTableViewController.swift in Sources */,
 				D1E10B8921A0C5BE001CEFFB /* LoyaltyData.swift in Sources */,
-				D1854A9A21A10CC400FE1FBD /* ContentPageViewController.swift in Sources */,
-				D1E10B9621A108F1001CEFFB /* PageViewController.swift in Sources */,
+				D1854AAF21A1C0FB00FE1FBD /* PartnerData.swift in Sources */,
+				D1854AB121A1C50C00FE1FBD /* RedemptionViewController.swift in Sources */,
+				D1854A9A21A10CC400FE1FBD /* MoCoinPageViewController.swift in Sources */,
+				D1E10B9621A108F1001CEFFB /* MoCoinViewController.swift in Sources */,
 				D1E10B7721A0BE66001CEFFB /* ViewController.swift in Sources */,
-				D1E10B8721A0C12B001CEFFB /* TableViewController.swift in Sources */,
-				D1E10B8D21A0CBDD001CEFFB /* TableViewCell.swift in Sources */,
+				D1854AA221A140F100FE1FBD /* RedeemTableViewCell.swift in Sources */,
+				D1E10B8721A0C12B001CEFFB /* HistoryTableViewController.swift in Sources */,
+				D1E10B8D21A0CBDD001CEFFB /* HistoryTableViewCell.swift in Sources */,
 				D1E10B7521A0BE66001CEFFB /* AppDelegate.swift in Sources */,
+				D1854A9D21A13C2800FE1FBD /* BetterSegmentedControl.swift in Sources */,
+				D1854A9E21A13C2800FE1FBD /* Options.swift in Sources */,
 				D1E10B8B21A0C651001CEFFB /* JsonData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,7 +352,6 @@
 		};
 		D1E10B8421A0BE68001CEFFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A9FCDDC88C66F4E5F75903B /* Pods-Movember-Loyalty-Program.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,7 +374,6 @@
 		};
 		D1E10B8521A0BE68001CEFFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71A5A8873B887E5C473639E7 /* Pods-Movember-Loyalty-Program.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

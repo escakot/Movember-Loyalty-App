@@ -1,5 +1,5 @@
 //
-//  TableViewController.swift
+//  HistoryTableViewController.swift
 //  Movember-Loyalty-Program
 //
 //  Created by Errol Cheong on 2018-11-17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class HistoryTableViewController: UITableViewController {
     
     var loyaltyData: [LoyaltyData] = []
 
@@ -25,24 +25,18 @@ class TableViewController: UITableViewController {
     }
     
     
-    func text(for value: Float, date: Date) -> String {
+    func text(date: Date) -> String {
         let timeFormatter = DateFormatter()
         timeFormatter.dateFormat = "h:mma"
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "M/d/yyyy"
-        
         let timeDate = timeFormatter.string(from: date)
         let dateDate = dateFormatter.string(from: date)
-        
-        if value < 0 {
-            return "You redeemed \(value.magnitude) MoCoins at \(timeDate) on \(dateDate)."
-        } else {
-            return "You earned \(value.magnitude) MoCoins at \(timeDate) on \(dateDate)."
-        }
+        return "\(timeDate), \(dateDate)."
     }
 }
 
-extension TableViewController {
+extension HistoryTableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
@@ -50,12 +44,17 @@ extension TableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "historyCell", for: indexPath)
         
         let viewData = loyaltyData[indexPath.row]
         let date = Date(timeIntervalSince1970: TimeInterval(viewData.date))
-        if let cell = cell as? TableViewCell {
-            cell.label?.text = text(for: viewData.value, date: date)
+        if let cell = cell as? HistoryTableViewCell {
+            cell.dateLabel.text = text(date: date)
+            if viewData.value < 0 {
+                cell.label.text = "You redeemed \(viewData.value.magnitude) MoCoins"
+            } else {
+                cell.label.text = "You earned \(viewData.value.magnitude) MoCoins"
+            }
         }
 
         return cell

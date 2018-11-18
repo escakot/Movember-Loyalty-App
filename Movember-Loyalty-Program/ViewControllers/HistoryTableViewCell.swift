@@ -1,5 +1,5 @@
 //
-//  TableViewCell.swift
+//  HistoryTableViewCell.swift
 //  Movember-Loyalty-Program
 //
 //  Created by Errol Cheong on 2018-11-17.
@@ -8,8 +8,9 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+class HistoryTableViewCell: UITableViewCell {
     
+    @IBOutlet var dateLabel: UILabel!
     @IBOutlet var label: UILabel!
 
 }

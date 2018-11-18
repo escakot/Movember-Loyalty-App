@@ -13,8 +13,8 @@ We conceptualize that coins could be awarded to users for various activities:
   - Attending a Movember themed event or gala
   - Other time-limited contests
 
-<img src="Images/mocoin-navigation.png" alt="Saved-Quotes" width="270" height="480">
-<img src="Images/mocoin-balance.png" alt="Saved-Quotes" width="270" height="480">
-<img src="Images/mocoin-history.png" alt="Saved-Quotes" width="270" height="480">
-<img src="Images/mocoin-redeem-confirm.png" alt="Saved-Quotes" width="270" height="480">
-<img src="Images/mocoin-redemption-code.png" alt="Saved-Quotes" width="270" height="480">
+<img src="Images/mocoin-navigation.png" alt="Saved-Quotes" width="324" height="676">
+<img src="Images/mocoin-balance.png" alt="Saved-Quotes" width="324" height="676">
+<img src="Images/mocoin-history.png" alt="Saved-Quotes" width="324" height="676">
+<img src="Images/mocoin-redeem-confirm.png" alt="Saved-Quotes" width="324" height="676">
+<img src="Images/mocoin-redemption-code.png" alt="Saved-Quotes" width="324" height="676">
